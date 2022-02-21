@@ -20,7 +20,7 @@ public class Player {
 	String type;
 	public String getType() { return type; }
 
-	boolean hasTurn;
+	private boolean hasTurn;
 	public boolean getHasTurn() { return hasTurn; }
 
 	Pit[] pits;
