@@ -1,7 +1,7 @@
 .startGameButton {
     font-size: 2em;
-    background-color: lightgreen;
-    border: 2px solid black;
+    background-color: forestgreen;
+    border: 3px solid black;
 }
 
 .errorMessage {
