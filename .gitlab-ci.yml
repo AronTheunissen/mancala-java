@@ -1,6 +1,7 @@
 image: gradle:7.3
 
 stages:
+  - build
   - sample-stage
   - test
 
@@ -8,6 +9,10 @@ sample-job:
   stage: sample-stage
   script:
     - echo "Hello world"
+
+attempt-build:
+  stage: build
+  script: gradle build
 
 test:
   stage: test
