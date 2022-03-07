@@ -11,4 +11,4 @@ sample-job:
 
 test:
   stage: test
-  script: gradle test
+  script: gradle run test
