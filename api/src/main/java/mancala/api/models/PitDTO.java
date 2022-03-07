@@ -1,6 +1,6 @@
 package mancala.api.models;
 
-public class Pit {
+public class PitDTO {
 	int index;
 
 	public int getIndex() {
@@ -11,7 +11,7 @@ public class Pit {
 
 	public int getNrOfStones() { return nrOfStones; }
 
-	public Pit(int index, int nrOfStones) {
+	public PitDTO(int index, int nrOfStones) {
 		this.index = index;
 		this.nrOfStones = nrOfStones;
 	}

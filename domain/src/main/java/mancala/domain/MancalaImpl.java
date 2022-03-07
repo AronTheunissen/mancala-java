@@ -1,34 +1,64 @@
 package mancala.domain;
 
+import java.lang.ClassCastException;
+
 public class MancalaImpl implements Mancala {
+
+    Bowl bowl;
+
     public MancalaImpl() {
-        // Initialize the game here.
+
+        this.bowl = new Bowl("player1", "player2");
     }
 
+
     @Override
-    public boolean isPlayersTurn(int player) {
-        return true;
+    public boolean isPlayersTurn(int playerNumber) {
+        Player player = bowl.getPlayer();
+        if(playerNumber == 1) {
+            return player.hasTurn();
+        }
+        else if(playerNumber == 2) {
+            return player.hasTurn();
+        }
+        else {
+            return false;
+        }
     }
 
     @Override
 	public void playPit(int index) throws MancalaException {
-        // Implement playing a pit.
+        try {
+            ((Bowl) bowl.getNeighbor(index)).play();
+        } catch(ClassCastException e){
+          throw new MancalaException("Kalaha kan niet gespeeld worden.");
+        }
     }
 	
 	@Override
 	public int getStonesForPit(int index) {
-        // Make a sane implementation.
-        if((index + 1 % 7) == 0) return 0;
-        return 4;
+        return bowl.getNeighbor(index).getContent();
     }
 
 	@Override
 	public boolean isEndOfGame() {
-        return false;
+        if(!(bowl.getPlayer().hasTurn() || bowl.getPlayer().getOpponent().hasTurn())){
+            return true;
+        }
+            return false;
     }
 
 	@Override
 	public int getWinner() {
+        if (isEndOfGame()) {
+            if (bowl.getPlayer().whoWon() == "player1") {
+                return Mancala.PLAYER_ONE;
+            } else if (bowl.getPlayer().whoWon() == "player2") {
+                return Mancala.PLAYER_TWO;
+            } else {
+                return Mancala.BOTH_PLAYERS;
+            }
+        }
         return Mancala.NO_PLAYERS;
     }
 }

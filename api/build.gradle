@@ -6,7 +6,7 @@ plugins {
 }
 
 repositories {
-    jcenter()
+    mavenCentral()
 }
 
 dependencies {
@@ -41,7 +41,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClassName = 'mancala.App'
+    mainClass.set('mancala.App')
 }
 
 test {

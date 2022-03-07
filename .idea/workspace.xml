@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6ae2e3c4-b85c-4382-ba7e-ad92c9c8bcdd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/api/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/mancala/api/PlayMancala.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/mancala/api/PlayMancala.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/mancala/api/StartMancala.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/mancala/api/StartMancala.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/mancala/api/models/GameStatusDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/mancala/api/models/GameStatusDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/mancala/api/models/IndexInputDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/mancala/api/models/IndexInputDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/mancala/api/models/MancalaDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/mancala/api/models/MancalaDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/mancala/api/models/PitDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/mancala/api/models/PitDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/mancala/api/models/PlayerDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/mancala/api/models/PlayerDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/mancala/api/models/PlayerInputDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/mancala/api/models/PlayerInputDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/test/java/mancala/api/StartMancalaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/test/java/mancala/api/StartMancalaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Bowl.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Bowl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Foo.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Foo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Kalaha.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Kalaha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/MancalaImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/MancalaImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/test/java/mancala/domain/InitialiseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/mancala/domain/InitialiseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/test/java/mancala/domain/MoveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/mancala/domain/MoveTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/test/java/mancala/domain/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/mancala/domain/PlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="23K4WxcPAiBxCaR8j2SmJgrZeNC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documenten\Sogyo\mancala-java\api\src\main\java\mancala\api\models" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="mancala.domain" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ae2e3c4-b85c-4382-ba7e-ad92c9c8bcdd" name="Changes" comment="" />
+      <created>1641469481376</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641469481376</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mancala.iml" filepath="$PROJECT_DIR$/.idea/modules/mancala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/mancala.api.iml" filepath="$PROJECT_DIR$/.idea/modules/api/mancala.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/mancala.domain.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/mancala.domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/mancala.domain.main.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/mancala.domain.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/mancala.domain.test.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/mancala.domain.test.iml" />
+    </modules>
+  </component>
+</project>

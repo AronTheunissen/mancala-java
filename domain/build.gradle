@@ -6,7 +6,7 @@ plugins {
 
 repositories {
     // Specify the repository mirror that we want to download our dependencies from. JCentral is configured by default when creating a new Gradle project.
-    jcenter()
+    mavenCentral()
 }
 
 dependencies {

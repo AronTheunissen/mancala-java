@@ -1,13 +1,13 @@
 package mancala.api.models;
 
-public class GameStatus {
+public class GameStatusDTO {
     boolean endOfGame;
     public boolean getEndOfGame() { return endOfGame; }
     
     String winner;
     public String getWinner() { return winner; }
 
-    public GameStatus(mancala.domain.Mancala mancala, 
+    public GameStatusDTO(mancala.domain.Mancala mancala,
             String namePlayer1, String namePlayer2) {
         this.endOfGame = mancala.isEndOfGame();
         int winner = mancala.getWinner();

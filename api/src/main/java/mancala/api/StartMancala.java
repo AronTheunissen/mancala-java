@@ -16,7 +16,7 @@ public class StartMancala {
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response initialize(
 			@Context HttpServletRequest request, 
-			PlayerInput players) {
+			PlayerInputDTO players) {
         var mancala = new MancalaImpl();
         String namePlayer1 = players.getNameplayer1();
 		String namePlayer2 = players.getNameplayer2();
@@ -26,7 +26,7 @@ public class StartMancala {
         session.setAttribute("player1", namePlayer1);
         session.setAttribute("player2", namePlayer2);
 
-		var output = new Mancala(mancala, namePlayer1, namePlayer2);
+		var output = new MancalaDTO(mancala, namePlayer1, namePlayer2);
 		return Response.status(200).entity(output).build();
 	}
 }
