@@ -18,6 +18,6 @@ public class FooTest {
     @Test 
     public void aNormalBorlStartsWith4Stones() {
         Foo foo = new Foo();
-        assertEquals(42, foo.theAnswerToLifeTheUniverseAndEverything());
+        assertEquals(41, foo.theAnswerToLifeTheUniverseAndEverything());
     }
 }
