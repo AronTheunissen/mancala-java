@@ -15,6 +15,4 @@ test:
 
 test-coverage:
   stage: coverage
-  script:
-    - apply plugin: 'jacoco'
-    - gradle jacoco
+  script: gradle jacoco

@@ -3,6 +3,7 @@ plugins {
     id 'java'
     // This time we're building a command-line executable application.
     id 'application'
+    id 'jacoco'
 }
 
 repositories {
