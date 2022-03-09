@@ -12,7 +12,13 @@ attempt-build:
 test:
   stage: test
   script: gradle test -i
+  artifacts:
+    paths:
+      -$CI_PROJECT_DIR/domain/build/reports/*
 
 test-coverage:
   stage: coverage
-  script: gradle jacoco
+  script: gradle jacocoTestCoverageVerification
+  artifacts:
+    paths:
+      -$CI_PROJECT_DIR/domain/build/reports/*

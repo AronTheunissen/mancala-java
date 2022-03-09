@@ -19,4 +19,18 @@ dependencies {
 test {
     // For running our tests, use the test runner provided by JUnit.
     useJUnitPlatform()
+    finalizedBy jacocoTestReport
+}
+
+jacocoTestReport {
+    dependsOn test
+    reports {
+        xml.enabled = true
+        csv.enabled = true
+        html.enabled = true
+    }
+}
+
+jacocoTestCoverageVerification {
+    dependsOn jacocoTestReport
 }
