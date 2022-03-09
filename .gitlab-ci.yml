@@ -18,7 +18,7 @@ test:
 
 test-coverage:
   stage: coverage
-  script: gradle jacocoTestCoverageVerification
+  script: gradle jacocoTestReport
   artifacts:
     paths:
       - $CI_PROJECT_DIR/domain/build/reports/*
