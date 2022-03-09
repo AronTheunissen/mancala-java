@@ -1,7 +1,5 @@
 image: gradle:7.3
 
-apply plugin: 'jacoco'
-
 stages:
   - build
   - test
@@ -17,4 +15,6 @@ test:
 
 test-coverage:
   stage: coverage
-  script: gradle jacoco
+  script:
+    - apply plugin: 'jacoco'
+    - gradle jacoco
