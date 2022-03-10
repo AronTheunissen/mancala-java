@@ -2,13 +2,13 @@ package mancala.domain;
 
 public class Bowl extends Kalaha {
 
-    public Bowl(String player1, String player2){
+    public Bowl(String player1, String player2) {
         super(player1, player2);
         this.content = 4;
         this.getPlayer().setBowl(this);
     }
 
-    protected Bowl(Bowl first, int index, Player player){
+    protected Bowl(Bowl first, int index, Player player) {
         super(first, index, player);
         this.content = 4;
         if(index == 7){
