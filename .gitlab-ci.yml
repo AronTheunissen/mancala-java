@@ -14,13 +14,15 @@ unit-tests:
   stage: test
   script: gradle test -i
   artifacts:
-    paths: $CI_PROJECT_DIR/domain/build/reports/*
+    paths:
+      - $CI_PROJECT_DIR/domain/build/reports/*
 
 test-coverage:
   stage: coverage
   script: gradle jacocoTestCoverageVerification
   artifacts:
-    paths: $CI_PROJECT_DIR/domain/build/reports/*
+    paths:
+      - $CI_PROJECT_DIR/domain/build/reports/*
 
 checkstyle:
   stage: checkstyle
@@ -28,4 +30,5 @@ checkstyle:
     - gradle checkstyleMain
     - gradle checkstyleTest
   artifacts:
-    paths: $CI_PROJECT_DIR/domain/build/reports/*
+    paths:
+      - $CI_PROJECT_DIR/domain/build/reports/*
