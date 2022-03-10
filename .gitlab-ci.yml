@@ -8,7 +8,7 @@ stages:
 
 attempt-build:
   stage: build
-  script: gradle build
+  script: gradle assemble
 
 unit-tests:
   stage: test
