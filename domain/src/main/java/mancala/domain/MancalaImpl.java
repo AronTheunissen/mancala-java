@@ -1,7 +1,5 @@
 package mancala.domain;
 
-import java.lang.ClassCastException;
-
 public class MancalaImpl implements Mancala {
 
     Bowl bowl;
@@ -31,7 +29,7 @@ public class MancalaImpl implements Mancala {
         try {
             ((Bowl) bowl.getNeighbor(index)).play();
         } catch(ClassCastException e){
-          throw new MancalaException("Kalaha kan niet gespeeld worden.");
+            throw new MancalaException("Kalaha kan niet gespeeld worden.");
         }
     }
 	
@@ -41,7 +39,7 @@ public class MancalaImpl implements Mancala {
     }
 
 	@Override
-	public boolean isEndOfGame() {
+    public boolean isEndOfGame() {
         if(!(bowl.getPlayer().hasTurn() || bowl.getPlayer().getOpponent().hasTurn())){
             return true;
         }
@@ -51,9 +49,9 @@ public class MancalaImpl implements Mancala {
 	@Override
 	public int getWinner() {
         if (isEndOfGame()) {
-            if (bowl.getPlayer().whoWon() == "player1") {
+            if (bowl.getPlayer().whoWon().equals("player1")) {
                 return Mancala.PLAYER_ONE;
-            } else if (bowl.getPlayer().whoWon() == "player2") {
+            } else if (bowl.getPlayer().whoWon().equals("player2")) {
                 return Mancala.PLAYER_TWO;
             } else {
                 return Mancala.BOTH_PLAYERS;
