@@ -5,6 +5,7 @@ stages:
   - test
   - coverage
   - checkstyle
+  - jar
 
 attempt-build:
   stage: build
@@ -21,6 +22,7 @@ test-coverage:
   stage: coverage
   script: gradle jacocoTestCoverageVerification
   artifacts:
+    when: on_failure
     paths:
       - $CI_PROJECT_DIR/domain/build/reports/*
 
@@ -30,5 +32,15 @@ checkstyle:
     - gradle checkstyleMain
     - gradle checkstyleTest
   artifacts:
+    when: on_failure
     paths:
       - $CI_PROJECT_DIR/domain/build/reports/*
+
+get_jar:
+  stage: jar
+  script: gradle distZip
+  artifacts:
+    when: always
+    name: "commit: $CI_COMMIT_SHORT_SHA pipeline: $CI_PIPELINE_ID branch: $CI_COMMIT_BRANCH"
+    paths:
+      - $CI_PROJECT_DIR/domain/build/distributions/*

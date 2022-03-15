@@ -32,7 +32,7 @@ public class MancalaImpl implements Mancala {
             throw new MancalaException("Kalaha kan niet gespeeld worden.");
         }
     }
-	
+
 	@Override
 	public int getStonesForPit(int index) {
         return bowl.getNeighbor(index).getContent();
