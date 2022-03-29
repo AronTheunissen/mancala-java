@@ -1,11 +1,12 @@
-FROM node:17
+FROM gradle:7.4.1-jdk17-alpine
 
-WORKDIR /app
+WORKDIR /home/gradle/src
 
-COPY ["package.json", "package-lock.json*", "./"]
+COPY api api
+COPY domain domain
+COPY settings.gradle settings.gradle
+copy config config
 
-RUN npm install
+RUN gradle build --no-daemon
 
-COPY ..
-
-CMD ["node", "server.js"]
+CMD ["gradle", "run"]

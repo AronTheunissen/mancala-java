@@ -5,25 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ae2e3c4-b85c-4382-ba7e-ad92c9c8bcdd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/api/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/mancala/api/PlayMancala.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/mancala/api/PlayMancala.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/mancala/api/StartMancala.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/mancala/api/StartMancala.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/mancala/api/models/GameStatusDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/mancala/api/models/GameStatusDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/mancala/api/models/IndexInputDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/mancala/api/models/IndexInputDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/mancala/api/models/MancalaDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/mancala/api/models/MancalaDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/mancala/api/models/PitDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/mancala/api/models/PitDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/mancala/api/models/PlayerDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/mancala/api/models/PlayerDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/mancala/api/models/PlayerInputDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/mancala/api/models/PlayerInputDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/test/java/mancala/api/StartMancalaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/test/java/mancala/api/StartMancalaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Bowl.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Bowl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Foo.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Foo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Kalaha.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Kalaha.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/MancalaImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/MancalaImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/mancala/domain/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/test/java/mancala/domain/InitialiseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/mancala/domain/InitialiseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/test/java/mancala/domain/MoveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/mancala/domain/MoveTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/test/java/mancala/domain/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/mancala/domain/PlayerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/domain/mancala.domain.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/domain/mancala.domain.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/snowpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/snowpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Mancala/Play.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Mancala/Play.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +38,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="23K4WxcPAiBxCaR8j2SmJgrZeNC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -54,15 +46,40 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-opdrachten/src/main/java/nl/sogyo/javaopdrachten/roborally" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documenten\Sogyo\mancala-java" />
+      <recent name="D:\Documenten\Sogyo\mancala-java\client" />
       <recent name="D:\Documenten\Sogyo\mancala-java\api\src\main\java\mancala\api\models" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="mancala.domain" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mancala.domain.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mancala.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mancala.domain" />
+      <option name="MAIN_CLASS_NAME" value="mancala.domain.PlayerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PlayerTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -86,5 +103,24 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/domain/src/main/java/mancala/domain/Player.java</url>
+          <line>60</line>
+          <properties class="mancala.domain.Player" method="whoWon">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/domain/src/main/java/mancala/domain/Player.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
